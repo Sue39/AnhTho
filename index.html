@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Anh Tho|Portfolio</title>
+  <link rel="icon" href="#">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <!-- Brand Logo -->
+ <div class="brand">
+	<a href="index.html">Sue</a>
+</div>
+  <!-- Desktop Menu -->
+  <nav class="nav-menu">
+    <a href="index.html">Trang chủ</a>
+    <a href="gioithieu.html">Giới thiệu</a>
+    <a href="dichvu.html">Dịch vụ</a>
+    <a href="#contact"> Liên hệ </a>
+  </nav>
+
+  <!-- Mobile Menu Toggle -->
+  <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="menu-overlay">
+    <div class="menu-content">
+      <span class="close-btn" aria-label="Close Menu">&times;</span>
+      <a href="#home">Trang chủ</a>
+      <a href="gioithieu.html">Giới thiệu</a>
+      <a href="dichvu.html">Dịch vụ</a>
+      <a href="#contact">Liên hệ</a>
+    </div>
+  </div>
+</header>
+<!-- Hero Section -->
+<section class="hero section-padding">
+  <div class="hero-content"> 
+    <h2>Chào bạn, tôi là</h2>
+    <h1> Sue nè </h1>
+    <p>
+      một "tân binh" trong thế giới thiết kế UX/UI! Tôi thích "biến hóa" những ý tưởng phức tạp thành trải nghiệm dễ chịu và dễ sử dụng. Đôi khi, công việc của tôi giống như việc tìm kiếm sự cân bằng giữa nghệ thuật và khoa học – nhưng đừng lo, tôi luôn đảm bảo người dùng sẽ cảm thấy "wow" thay vì "huh?" khi sử dụng sản phẩm. Tôi yêu thích việc tạo ra giao diện vừa xinh xắn vừa thông minh, giúp mọi thứ trở nên đơn giản và vui vẻ hơn.
+    </p>
+    <a href="#" class="btn">Hiểu thêm tôi nhé ~</a>
+  </div>
+  <div class="hero-image">
+    <img src="images/avt.png" alt="avatar">
+  </div>
+</section>
+	
+<!-- About Section -->
+<section class="about section-padding">
+
+  <div class="commitments">
+    <div class="commitment">
+      <div class="circle">
+        <img src="images/trainghiem.png" alt="Pixel Perfect">
+      </div>
+      <h3>Trải nghiệm tối ưu</h3>
+      <p> Lấy người dùng làm trung tâm, đảm bảo giao diện thân thiện và dễ sử dụng.</p>
+    </div>
+    <div class="commitment">
+      <div class="circle">
+        <img src="images/chatluong.png" alt="High Quality">
+      </div>
+      <h3>Chất lượng cao</h3>
+      <p>Thiết kế thẩm mỹ, nhất quán và phù hợp với mục tiêu kinh doanh.</p>
+    </div>
+    <div class="commitment">
+      <div class="circle">
+        <img src="images/chuyennghiep.png" alt="Awesome Idea">
+      </div>
+      <h3>Làm việc chuyên nghiệp</h3>
+      <p>Nghiên cứu kỹ lưỡng, linh hoạt chỉnh sửa, và giao tiếp rõ ràng với các bên liên quan. </p>
+    </div>
+  </div>
+
+
+  <div class="about-content">
+    <div class="about-image">
+      <div class="circle-image">
+        <img src="images/meo2.png" alt="About Avatar">
+      </div>
+    </div>
+    <div class="about-text">
+      <h4>Mình là nhà thiết kế</h4>
+      <h2>Thiết kế suy nghĩ của bạn</h2>
+      <p>
+        Mình là một nhà thiết kế mới, đang trên con đường học hỏi mọi thứ mình có thể biến những ý tưởng tuyệt vời thành hiện thực.
+      </p>
+      <a href="contact.html" class="btn">Liên Hệ Mình</a>
+    </div>
+  </div>
+</section>
+	
+  <!-- portfolio section  -->
+	<section class="portfolio section-padding">
+  <h2>Sản phẩm</h2>
+  <p>Những sản phẩm mình đã làm với sự sáng tạo và chất lượng cao.</p>
+
+  <div class="tags">
+    <button data-filter="all" class="active">Tất cả</button>
+    <button data-filter="web-design">Chỉnh sửa hình ảnh</button>
+    <button data-filter="development"> Quảng cáo</button>
+    <button data-filter="photography">Chơi chữ</button>
+    <button data-filter="marketing">Thương hiệu</button>
+  </div>
+
+  <!-- Gallery Wrapper -->
+  <div class="gallery-wrapper">
+    <div class="gallery">
+      <div class="gallery-item" data-tag="Manipulation">
+        <img src="images/1.jpg" alt="Work 1">
+      </div>
+      <div class="gallery-item" data-tag="development">
+        <img src="images/2.jpg" alt="Work 2">
+      </div>
+      <div class="gallery-item" data-tag="photography">
+        <img src="images/3.jpg" alt="Work 3">
+      </div>
+		 <div class="gallery-item" data-tag="web-design">
+        <img src="images/1.jpg" alt="Work 1">
+      </div>
+      <div class="gallery-item" data-tag="development">
+        <img src="images/2.jpg" alt="Work 2">
+      </div>
+      <div class="gallery-item" data-tag="photography">
+        <img src="images/3.jpg" alt="Work 3">
+      </div>
+		 <div class="gallery-item" data-tag="web-design">
+        <img src="images/1.jpg" alt="Work 1">
+      </div>
+      <div class="gallery-item" data-tag="development">
+        <img src="images/2.jpg" alt="Work 2">
+      </div>
+      <div class="gallery-item" data-tag="photography">
+        <img src="images/3.jpg" alt="Work 3">
+    </div>
+
+    <!-- Arrows for scrolling -->
+    <div class="arrows">
+      <button class="arrow up">↑</button>
+      <button class="arrow down">↓</button>
+    </div>
+  </div>
+
+  <!-- Fullscreen Image Viewer -->
+  <div class="fullscreen-viewer">
+    <span class="close-btn">×</span>
+    <img src="#" alt="Fullscreen Work">
+  </div>
+</section>
+
+	
+
+	
+	
+<section class="skills section-padding">
+  <h2>Công cụ mình dùng</h2>
+  <p>Mình thường xuyên nâng cao kỹ năng để theo kịp các xu hướng và kỹ thuật mới nhất.</p>
+
+  <!-- Skill Tools Grid -->
+  <div class="skills-grid">
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="icons/svg/pts.svg" alt="Photoshop">
+      </div>
+      <div class="skill-bar">
+        <span class="skill-title">Photoshop</span>
+        <div class="progress">
+          <div class="progress-bar" data-skill="80">
+            <span class="progress-percent">80%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="icons/svg/ai.svg" alt="Illustrator">
+      </div>
+      <div class="skill-bar">
+        <span class="skill-title">Illustrator</span>
+        <div class="progress">
+          <div class="progress-bar" data-skill="70">
+            <span class="progress-percent">70%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	<div class="skill-item">
+      <div class="skill-icon">
+        <img src="icons/svg/lr.svg" alt="Lightroom">
+      </div>
+      <div class="skill-bar">
+        <span class="skill-title">Lightroom</span>
+        <div class="progress">
+          <div class="progress-bar" data-skill="50">
+            <span class="progress-percent">50%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="icons/svg/id.svg" alt="Indesignr">
+      </div>
+      <div class="skill-bar">
+        <span class="skill-title">Indesign</span>
+        <div class="progress">
+          <div class="progress-bar" data-skill="40">
+            <span class="progress-percent">40%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+	  
+	<div class="skill-item">
+      <div class="skill-icon">
+        <img src="icons/svg/xd.svg" alt="Adobe Xd">
+      </div>
+      <div class="skill-bar">
+        <span class="skill-title">Adobe xd</span>
+        <div class="progress">
+          <div class="progress-bar" data-skill="30">
+            <span class="progress-percent">30%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-icon">
+        <img src="icons/svg/dw.svg" alt="Dreamweaver">
+      </div>
+      <div class="skill-bar">
+        <span class="skill-title">Dreamweaver</span>
+        <div class="progress">
+          <div class="progress-bar" data-skill="20">
+            <span class="progress-percent">20%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Thêm các thanh khác tương tự -->
+  </div>
+</section>
+
+<section class="testimonials section-padding">
+  <h2>Những gì khách hàng của mình nói</h2>
+  <p>Xem khách hàng nói gì về dịch vụ của mình và trải nghiệm của họ.</p>
+
+  <!-- Testimonial Container -->
+  <div class="testimonial-container">
+    <!-- Testimonial Item -->
+    <div class="testimonial-item active">
+      <blockquote>
+        "Ý tưởng thiết kế rất độc đáo, phù hợp với thương hiệu của tôi."
+      </blockquote>
+      <div class="testimonial-author">
+        <img src="images/customer1-01.png" alt="Hoa">
+        <div>
+          <h5>Hoa</h5>
+          <span>Web Developer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-item">
+      <blockquote>
+        "Designer làm việc rất chuyên nghiệp, luôn đúng hạn."
+      </blockquote>
+      <div class="testimonial-author">
+        <img src="images/customer1-02.png" alt="Cam">
+        <div>
+          <h5>Cam</h5>
+          <span>Graphic Designer</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thêm các testimonial khác -->
+    <div class="testimonial-item">
+      <blockquote>
+        "Cách giao tiếp rõ ràng, dễ hiểu, giúp tôi định hình ý tưởng tốt hơn."
+      </blockquote>
+      <div class="testimonial-author">
+        <img src="images/customer1-03.png" alt="Nam">
+        <div>
+          <h5>Nam</h5>
+          <span>Photographer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-item">
+      <blockquote>
+        "Sản phẩm đẹp mắt, đúng phong cách tôi muốn."
+      </blockquote>
+      <div class="testimonial-author">
+        <img src="images/customer1-04.png" alt="Mèo">
+        <div>
+          <h5>Mèo lạc</h5>
+          <span>Marketing Expert</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-item">
+      <blockquote>
+        "Mỗi thiết kế đều mang dấu ấn riêng và rất sáng tạo."
+      </blockquote>
+      <div class="testimonial-author">
+        <img src="images/customer1-05-05.png" alt="Tiểu thư ánh sáng">
+        <div>
+          <h5>Tiểu thư ánh sáng</h5>
+          <span>Business Consultant</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination Dots -->
+  <div class="testimonial-dots">
+    <span class="dot active" data-index="0"></span>
+    <span class="dot" data-index="1"></span>
+    <span class="dot" data-index="2"></span>
+    <span class="dot" data-index="3"></span>
+    <span class="dot" data-index="4"></span>
+  </div>
+</section>
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+<section class="contact section-padding">
+  <h2>Liên hệ cho mình</h2>
+  <p>Mình sẵn sàng để được giải đáp bất kỳ thắc mắc hoặc hợp tác nào!</p>
+
+  <div class="contact-container">
+    <!-- Left Section -->
+    <div class="contact-info">
+      <div class="info-item">
+        <div class="info-icon">
+          <img src="images/phone.png" alt="Address">
+        </div>
+        <div class="info-text">
+          <h5>Địa chỉ</h5>
+          <p>TP. HCM</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <div class="info-icon">
+          <img src="images/mail.png" alt="Email">
+        </div>
+        <div class="info-text">
+          <h5>Email</h5>
+          <p>meotrang@gmail.com</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <div class="info-icon">
+          <img src="images/zalo.png" alt="Phone">
+        </div>
+        <div class="info-text">
+          <h5>Điện thoại</h5>
+          <p>+84 39 39 3939</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" id="Tên" placeholder="Tên Bạn">
+        <input type="email" id="email" placeholder="Email Bạn">
+      </div>
+      <div class="form-group">
+        <input type="text" id="phone" placeholder="Số của bạn">
+        <input type="text" id="yeucau" placeholder="Yêu cầu">
+      </div>
+      <textarea id="message" placeholder="Viết tin nhắn của bạn ở đây"></textarea>
+      <button type="submit" class="submit-btn">Gửi đi</button>
+    </form>
+  </div>
+</section>
+	
+	
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Left Section -->
+    <div class="footer-left">
+      <div class="footer-logo">
+        <span class="logo-icon"></span>
+        <span class="logo-text">Anh Thơ | Portfolio</span>
+      </div> 
+      <p>Đồng hành cùng bạn để tạo nên những thiết kế độc đáo, đậm chất riêng, giúp thương hiệu chinh phục thị trường.</p>
+    </div>
+
+    <!-- Right Section -->
+    <div class="footer-right">
+      <ul class="footer-contact">
+        <li>
+          <img src="images/mail.png" alt="Email">
+          <span>meotrang@gmail.com</span>
+        </li>
+        <li>
+          <img src="images/phone.png" alt="Phone">
+          <span>+84 39 39 3939</span>
+        </li>
+      </ul>
+      <ul class="footer-social">
+        <li><a href="#"><img src="images/fb.png" alt="Facebook"></a></li>
+        <li><a href="#"><img src="images/behance.png" alt="Behance"></a></li>
+        <li><a href="#"><img src="images/zalo.png" alt="Zalo"></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <ul class="footer-links">
+      <li><a href="#">Trang chủ</a></li>
+      <li><a href="#">Về mình</a></li>
+      <li><a href="#">Tác phẩm</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+    <p>© All Right Reserved</p>
+  </div>
+</footer>
+	
+
+<script src="js/main.js"></script>
+</body>
+</html>
